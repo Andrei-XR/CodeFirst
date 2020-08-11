@@ -6,7 +6,7 @@ namespace CodeFirstSqlServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
