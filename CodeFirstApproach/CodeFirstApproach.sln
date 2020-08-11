@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstSqlServer", "CodeFirstSqlServer\CodeFirstSqlServer.csproj", "{E72B5E6B-1EF6-4AC4-A147-92BAB3E7BA1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstSqlServer", "CodeFirstSqlServer\CodeFirstSqlServer.csproj", "{E72B5E6B-1EF6-4AC4-A147-92BAB3E7BA1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstPostgreSql", "CodeFirstPostgreSql\CodeFirstPostgreSql.csproj", "{5CA9488F-7AAB-46ED-B434-B78A093F412F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstPostgreSql", "CodeFirstPostgreSql\CodeFirstPostgreSql.csproj", "{5CA9488F-7AAB-46ED-B434-B78A093F412F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstSQLite", "CodeFirstSQLite\CodeFirstSQLite.csproj", "{21D74500-16F9-43A4-893C-42E7D0EC1B1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5CA9488F-7AAB-46ED-B434-B78A093F412F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CA9488F-7AAB-46ED-B434-B78A093F412F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CA9488F-7AAB-46ED-B434-B78A093F412F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D74500-16F9-43A4-893C-42E7D0EC1B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D74500-16F9-43A4-893C-42E7D0EC1B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D74500-16F9-43A4-893C-42E7D0EC1B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D74500-16F9-43A4-893C-42E7D0EC1B1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
